@@ -12,4 +12,4 @@ You will also see any lint errors in the console.
 Runs the app in the production mode.
 
 ### `npm run debug`
-Runs the app in the debug mode
+Runs the app in the debug mode using node debugger. 
