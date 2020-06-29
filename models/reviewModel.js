@@ -47,6 +47,8 @@ reviewSchema.pre(/^find/, function(next) {
   next();
 });
 
+reviewSchema.index({ tour: 1, user: 1 }, { unique: true });
+
 reviewSchema.static.calcAverageRetaings = async function(id) {
   const stats = await this.aggregate([
     { $match: { tour: id } },
