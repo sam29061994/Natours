@@ -94,6 +94,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ yarn start:prod / npm start:prod
 
 ## Debug the project with Node debugger
-
-$ yarn run debug / npm run debug
+    
+    $ yarn run debug / npm run debug
 
